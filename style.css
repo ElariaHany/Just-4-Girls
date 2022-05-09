@@ -1,0 +1,129 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: deeppink;
+    padding: auto ;
+    background-color: azure;
+    font-size: 200%;
+    font-weight: bold;
+}
+p { font-size: 200%;
+    font-weight: bold;
+    color: darkblue;
+}
+h3 { font-size: 200%;
+    font-weight: bold;
+    color: deeppink;
+
+}
+ul { font-size: 200%;
+    font-weight: bold;
+    color: black
+
+}
+input[type=text] {
+    border: 4px solid #d452a9;
+    border-radius: 5px; 
+}
+input[type=email] {
+    border: 4px solid #d452a9;
+    border-radius: 5px; 
+}
+input[type=password] {
+    border: 4px solid #84e0f0;
+    border-radius: 5px; 
+}
+
+
+form {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    float: right;
+    border: 4px solid #84e0f0;
+    padding: 15px;
+    width: 550px;
+}
+table, th, td {
+    border: 1px deeppink solid;
+}
+th, td {
+    padding: 15px;
+    font-size: 200%;
+   }
+   table {
+    border-collapse: collapse;
+    width: 100%;
+   }
+   th {
+       background-color: #f8bef5;
+       color: white;
+       font-family: "Times New Roman", Times, serif;
+       font-weight: bold;
+       font-size: 200%;
+   }
+   img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+ 
+  
+  ul li {
+    background: azure;
+    color: darkblue;
+    margin: 5px;
+  }
+  body
+{
+  background:linear-gradient(rgb(248, 207, 238), rgb(159, 201, 168));
+  height:auto;
+  width:auto;
+  justify-content:center;
+  align-items:center;
+}
+.container
+{
+  width:auto;
+  height:auto;
+  background:rgba(255 , 255 , 255 ,0.1);
+  border-radius:20px;
+  text-shadow: black,100px;
+  
+}
+body::after
+{
+  content:'';
+  height:100%;
+  width:100%;
+  background:rgb(192, 255, 207);
+  position:absolute;
+  z-index:-1;
+  clip-path:circle(25% at right 80%);
+}
+nav
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:50%;
+  margin:0 0;
+  padding:20px 0; 
+}
+nav ul li 
+{
+  display:inline-block;
+  margin:10px 10px;
+  padding:0 0;
+}
+nav ul li a 
+{
+  color:deeppink;
+  text-decoration:none;
+  font-size:25px;
+  font-weight:500;
+}
+nav ul li a:hover
+{
+  color:#333a;
+}
